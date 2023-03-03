@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+    background-color: black;
+    padding: 1.5rem 2.5rem;
+    border-radius: 20px;
+    color: green;
+    font-weight: 700;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 3.5px solid green;
+    outline: none;
+    padding: 1rem;
+    font-size: xx-large;
+    font-weight: 600;
+    color: goldenrod;
+    background-color: darkgreen;
+}
+
+textarea:disabled {
+  background-color: darkgrey;
+  color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
